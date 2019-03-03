@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-size: 1.5rem;
+  font-family: 'Short Stack', cursive;
+}
+h* {
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+header,.header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+main,.inner-wrapper {
+  /* margin: 0 15%; */
+  padding: 2%;
+  /* min-height: 100%; */
+  background: red;
+}
+
+
+.fab,
+a {
+  /* margin: auto; */
+}
+.profile-img-header {
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 5%; */
+  /* margin: 15%; */
+}
+.profile-img {
+  border-radius: 50%;
+}
+
+main {
+  /* height: 100vh; */
+  /* background: whitesmoke; */
+  /* display: flex; */
+}
+aside {
+  /* flex: 1 1 auto; */
+  /* background: lightgreen; */
+}
+article {
+  /* background: lightgoldenrodyellow; */
+  /* flex: 2; */
+}
+footer {
+  /* background: lightcyan; */
+}
+/* 
+@media only screen and(max-width:600px) {
+  main {
+    background-color: blue;
+  }
+} */

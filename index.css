@@ -1,8 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-
-  font-size: 1.5rem;
   font-family: 'Short Stack', cursive;
 }
 h* {
@@ -12,50 +10,113 @@ h* {
   display: flex;
   flex-direction: column;
 }
-header,.header {
-  background: lightblue;
+/*HEADER SYLES*/
+.header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  border-bottom: 3px solid #eee;
+  padding: 3%;
 }
-
-main,.inner-wrapper {
-  /* margin: 0 15%; */
-  padding: 2%;
-  /* min-height: 100%; */
-  background: red;
+.header-h3{
+  margin:auto;
 }
-
-
-.fab,
+.header-links {
+  display: flex;
+}
+.header-links,
 a {
-  /* margin: auto; */
+  margin: 0 auto;
+  padding: 5%;
 }
-.profile-img-header {
-  /* display: flex;
-  flex-direction: column; */
-  /* padding: 5%; */
-  /* margin: 15%; */
+.header-img{
+  height:200px;
+}
+/*MAIN STYLES*/
+main,
+.inner-wrapper {
+  padding: 5%;
+  display: flex;
+}
+
+
+/*ASIDE STYLES*/
+.aside-about-me {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  line-height: 1.5;
+  border: solid black 2px;
+  padding: 2%;
+  transition: all 2s ease;
+  color:white;
+  background: black;
+}
+.aside-about-me:hover{
+  color:black;
+  background:whitesmoke;
 }
 .profile-img {
   border-radius: 50%;
+  margin:auto;
+}
+/*ARTICLE STYLES*/
+.article-container {
+  padding:0 3%;
+  margin: 0 5%;
+}
+.article-projects {
+  display: flex;
+  flex-direction: column;
 }
 
-main {
-  /* height: 100vh; */
-  /* background: whitesmoke; */
-  /* display: flex; */
+
+.article-project-p {
+  border: black solid 2px;
+  padding: 2%;
+  margin: 2% 25% 0 0;
+  transition:all 2s ease;
 }
-aside {
-  /* flex: 1 1 auto; */
-  /* background: lightgreen; */
+.article-project-p:hover{
+  color:white;
+  background: black;
 }
-article {
-  /* background: lightgoldenrodyellow; */
-  /* flex: 2; */
+.article-project-link{
+  text-decoration: none;
+  color: orange;
+}
+.article-project-link{
+
 }
 footer {
-  /* background: lightcyan; */
+  background: #eee;
+  text-align: center;
+  padding: 3%;
 }
+.article-techstack {
+  margin-top: 2%;
+}
+.article-ul-container{
+  display: flex;
+  margin: 3%;
+}
+
+.techstack-item{
+  border: 1px solid black;
+  list-style: none;
+  padding: 5%;
+  margin: 5%;
+  width: 9rem;
+  flex-wrap: wrap;
+  transition: all 1s ease;
+  
+}
+.techstack-item:hover{
+  color:orange;
+  background: black;
+  font-weight: bold;
+  width: 9.25rem;
+}
+.
 /* 
 @media only screen and(max-width:600px) {
   main {

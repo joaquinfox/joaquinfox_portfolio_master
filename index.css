@@ -13,29 +13,31 @@ h* {
 /*HEADER SYLES*/
 .header {
   display: flex;
-  justify-content: space-around;
   border-bottom: 3px solid #eee;
-  padding: 3%;
 }
-.header-h3{
-  margin:auto;
-}
-.header-links {
+.header-content{
   display: flex;
+  margin: auto;
 }
-.header-links,
-a {
-  margin: 0 auto;
-  padding: 5%;
+
+.header-anchors{
+  padding: 2rem;;
+  margin: auto;
+  color: #222;
+  transition: all 1s ease;
+}
+.header-anchors:hover{
+  color: orange;
 }
 .header-img{
-  height:200px;
+  height:150px;
 }
 /*MAIN STYLES*/
 main,
 .inner-wrapper {
   padding: 5%;
   display: flex;
+  margin:0 15%;
 }
 
 
@@ -43,26 +45,25 @@ main,
 .aside-about-me {
   display: flex;
   flex-direction: column;
-  width: 40%;
   line-height: 1.5;
-  border: solid black 2px;
+  border: solid #222 2px;
   padding: 2%;
   transition: all 2s ease;
   color:white;
-  background: black;
+  background: #222;
 }
 .aside-about-me:hover{
-  color:black;
+  color:#222;
   background:whitesmoke;
 }
 .profile-img {
   border-radius: 50%;
   margin:auto;
+  height: 12rem;
 }
 /*ARTICLE STYLES*/
 .article-container {
   padding:0 3%;
-  margin: 0 5%;
 }
 .article-projects {
   display: flex;
@@ -71,52 +72,48 @@ main,
 
 
 .article-project-p {
-  border: black solid 2px;
+  border: #222 solid 2px;
   padding: 2%;
-  margin: 2% 25% 0 0;
+  margin: 5% 0;
   transition:all 2s ease;
 }
 .article-project-p:hover{
   color:white;
-  background: black;
+  background: #222;
 }
 .article-project-link{
   text-decoration: none;
   color: orange;
 }
-.article-project-link{
 
+.article-ul-container{
+  display: flex;
+}
+.techstack-ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.techstack-item{
+  border: 1px solid #222;
+  list-style: none;
+  padding: 5%;
+  margin: 5% auto;
+  width: 9rem;
+  transition: all 1s ease;
+  
+}
+.techstack-item:hover{
+  color:orange;
+  background: #222;
+  font-weight: bold;
+  width: 9.25rem;
 }
 footer {
   background: #eee;
   text-align: center;
   padding: 3%;
 }
-.article-techstack {
-  margin-top: 2%;
-}
-.article-ul-container{
-  display: flex;
-  margin: 3%;
-}
-
-.techstack-item{
-  border: 1px solid black;
-  list-style: none;
-  padding: 5%;
-  margin: 5%;
-  width: 9rem;
-  flex-wrap: wrap;
-  transition: all 1s ease;
-  
-}
-.techstack-item:hover{
-  color:orange;
-  background: black;
-  font-weight: bold;
-  width: 9.25rem;
-}
-.
 /* 
 @media only screen and(max-width:600px) {
   main {

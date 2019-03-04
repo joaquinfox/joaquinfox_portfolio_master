@@ -15,31 +15,30 @@ h* {
   display: flex;
   border-bottom: 3px solid #eee;
 }
-.header-content{
+.header-content {
   display: flex;
   margin: auto;
 }
 
-.header-anchors{
-  padding: 2rem;;
+.header-anchors {
+  padding: 2rem;
   margin: auto;
   color: #455;
   transition: all 1s ease;
 }
-.header-anchors:hover{
+.header-anchors:hover {
   color: orange;
 }
-.header-img{
-  height:150px;
+.header-img {
+  height: 150px;
 }
 /*MAIN STYLES*/
 main,
 .inner-wrapper {
   padding: 5%;
   display: flex;
-  margin:0 15%;
+  margin: 0 15%;
 }
-
 
 /*ASIDE STYLES*/
 .aside-about-me {
@@ -49,63 +48,62 @@ main,
   border: solid #222 2px;
   padding: 2%;
   transition: all 2s ease;
-  color:white;
-  background: #222;
+  color: white;
+  background: #455;
 }
-.aside-about-me:hover{
-  color:#222;
-  background:whitesmoke;
+.aside-about-me:hover {
+  color: #222;
+  background: whitesmoke;
 }
 .profile-img {
   border-radius: 50%;
-  margin:auto;
+  margin: auto;
   height: 12rem;
+  transform: rotate(90deg);
 }
 /*ARTICLE STYLES*/
 .article-container {
-  padding:0 3%;
+  padding: 0 3%;
 }
 .article-projects {
   display: flex;
   flex-direction: column;
 }
 
-
 .article-project-p {
   border: #222 solid 2px;
   padding: 2%;
   margin: 5% 0;
-  transition:all 2s ease;
+  transition: all 2s ease;
 }
-.article-project-p:hover{
-  color:white;
-  background: #222;
+.article-project-p:hover {
+  color: white;
+  background: #455;
 }
-.article-project-link{
+.article-project-link {
   text-decoration: none;
   color: orange;
 }
 
-.article-ul-container{
+.article-ul-container {
   display: flex;
 }
-.techstack-ul{
+.techstack-ul {
   display: flex;
   flex-direction: column;
 }
 
-.techstack-item{
+.techstack-item {
   border: 1px solid #222;
   list-style: none;
   padding: 5%;
   margin: 5% auto;
   width: 9rem;
   transition: all 1s ease;
-  
 }
-.techstack-item:hover{
-  color:orange;
-  background: #222;
+.techstack-item:hover {
+  color: orange;
+  background: #455;
   font-weight: bold;
   width: 9.25rem;
 }
@@ -113,6 +111,7 @@ footer {
   background: #eee;
   text-align: center;
   padding: 3%;
+  color: orange;
 }
 /* 
 @media only screen and(max-width:600px) {

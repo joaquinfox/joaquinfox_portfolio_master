@@ -55,7 +55,7 @@ main,
   color: #222;
   background: whitesmoke;
 }
-.aside-p-hi{
+.aside-p-hi {
   margin: 10% auto;
   font-size: 1.25rem;
 }
@@ -116,6 +116,16 @@ footer {
   padding: 3%;
   color: orange;
 }
+.resume {
+  text-decoration: none;
+  color: #455;
+  transition: all 1s ease;
+}
+.resume:hover{
+  color: orange;
+  font-weight: bold;
+}
+
 /* 
 @media only screen and(max-width:600px) {
   main {

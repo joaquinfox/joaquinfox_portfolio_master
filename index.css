@@ -33,7 +33,6 @@ h* {
   height: 150px;
 }
 /*MAIN STYLES*/
-main,
 .inner-wrapper {
   padding: 5%;
   display: flex;
@@ -126,9 +125,25 @@ footer {
   font-weight: bold;
 }
 
-/* 
-@media only screen and(max-width:600px) {
-  main {
-    background-color: blue;
+
+@media (max-width:800px) {
+  .header-content{
+    display:flex;
+    flex-direction: column;
   }
-} */
+  .inner-wrapper {
+    display: flex;
+    flex-direction:column;
+    background:whitesmoke;
+  }
+  .article-ul-container{
+    display:flex;
+    flex-direction:column;
+  }
+  .techstack-item{
+    margin: 3%;
+  }
+  .header-img{
+    display: none;
+  }
+}

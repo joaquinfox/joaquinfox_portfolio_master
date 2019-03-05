@@ -12,17 +12,17 @@ h* {
 }
 /*HEADER SYLES*/
 .header {
-  display: flex;
   border-bottom: 3px solid #eee;
 }
 .header-content {
-  display: flex;
-  margin: auto;
+  text-align: center;
+  padding-top: 1%;
 }
-
+.anchor-container{
+  padding: 1%;
+}
 .header-anchors {
   padding: 2rem;
-  margin: auto;
   color: #455;
   transition: all 1s ease;
 }

@@ -51,8 +51,7 @@ h* {
   background: #455;
 }
 .aside-about-me:hover {
-  color: #222;
-  background: whitesmoke;
+  background:#555;
 }
 .aside-p-hi {
   margin: 10% auto;
@@ -63,6 +62,16 @@ h* {
   margin: auto;
   height: 12rem;
   transform: rotate(90deg);
+}
+.email-anchor{
+  text-decoration: none;
+  color: orange;
+  transition: all 1s ease;
+}
+
+.email-anchor:hover{
+  /* text-decoration: underline wavy orange; */
+  color: #efb911;
 }
 /*ARTICLE STYLES*/
 .article-container {

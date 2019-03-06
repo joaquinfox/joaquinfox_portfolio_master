@@ -183,7 +183,10 @@ footer {
   .header-img {
     display: none;
   }
+}
+@media (max-width: 600px) {
   .profile-img {
     content: url('./profilepic2.JPG');
+    transform: rotate(90deg);
   }
 }

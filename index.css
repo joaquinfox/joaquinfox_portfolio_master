@@ -50,6 +50,9 @@ h* {
   color: white;
   background: #455;
 }
+.aside-p{
+  /* text-indent: 1rem; */
+}
 .aside-about-me:hover {
   background:#555;
 }
@@ -88,13 +91,27 @@ h* {
   margin: 2% 0;
   transition: all 2s ease;
 }
-.article-project-p:hover {
+.article-project-p:hover>.project-anchors, .article-project-p:hover {
   color: white;
   background: #455;
 }
 .article-project-link {
   text-decoration: none;
   color: orange;
+}
+.project-anchors{
+  position: relative;
+  bottom: 0;
+  right: 0;
+  color: #455;
+  text-decoration: none;
+  font-size: 75%;
+  transition: all 1s ease;
+}
+.project-anchors:hover{
+  font-size: 85%;
+  border: 1px solid orange;
+
 }
 
 .article-ul-container {

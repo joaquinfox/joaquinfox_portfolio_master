@@ -14,7 +14,7 @@ h* {
 .header {
   border-bottom: 3px solid #eee;
 }
-#header-subtitle{
+#header-subtitle {
   color: #999;
   font-style: italic;
   padding: 1%;
@@ -23,7 +23,7 @@ h* {
   text-align: center;
   padding-top: 1%;
 }
-.anchor-container{
+.anchor-container {
   padding: 1%;
 }
 .header-anchors {
@@ -55,7 +55,7 @@ h* {
   color: white;
   background: #455;
 }
-.aside-p{
+.aside-p {
 }
 .aside-about-me:hover {
 }
@@ -69,14 +69,15 @@ h* {
   height: 10rem;
   transform: rotate(90deg);
   visibility: visible;
+  content: url('./profilepic.JPG');
 }
-.email-anchor{
+.email-anchor {
   text-decoration: none;
   color: orange;
   transition: all 1s ease;
 }
 
-.email-anchor:hover{
+.email-anchor:hover {
   color: white;
   border: 1px solid orange;
   border-radius: 50%;
@@ -97,7 +98,8 @@ h* {
   margin: 2% 0;
   transition: all 2s ease;
 }
-.article-project-p:hover>.project-anchors, .article-project-p:hover {
+.article-project-p:hover > .project-anchors,
+.article-project-p:hover {
   color: white;
   background: #455;
 }
@@ -105,7 +107,7 @@ h* {
   text-decoration: none;
   color: orange;
 }
-.project-anchors{
+.project-anchors {
   position: relative;
   bottom: 0;
   right: 0;
@@ -114,10 +116,9 @@ h* {
   font-size: 75%;
   transition: all 1s ease;
 }
-.project-anchors:hover{
+.project-anchors:hover {
   font-size: 85%;
   border: 1px solid orange;
-
 }
 
 .article-ul-container {
@@ -155,32 +156,34 @@ footer {
   padding: 0.5%;
   font-size: 75%;
 }
-.resume:hover{
+.resume:hover {
   background: #455;
   color: orange;
   font-weight: bold;
   border-radius: 50%;
 }
 
-
-@media (max-width:800px) {
-  .header-content{
-    display:flex;
+@media (max-width: 800px) {
+  .header-content {
+    display: flex;
     flex-direction: column;
   }
   .inner-wrapper {
     display: flex;
-    flex-direction:column;
-    background:whitesmoke;
+    flex-direction: column;
+    background: whitesmoke;
   }
-  .article-ul-container{
-    display:flex;
-    flex-direction:column;
+  .article-ul-container {
+    display: flex;
+    flex-direction: column;
   }
-  .techstack-item{
+  .techstack-item {
     margin: 3%;
   }
-  .header-img{
+  .header-img {
     display: none;
+  }
+  .profile-img {
+    content: url('./profilepic2.JPG');
   }
 }

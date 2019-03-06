@@ -189,4 +189,7 @@ footer {
     content: url('./profile_pic3.JPG');
     transform: rotate(1800deg);
   }
+  *{
+    font-family: sans-serif;
+  }
 }

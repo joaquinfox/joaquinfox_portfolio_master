@@ -69,7 +69,6 @@ h* {
   height: 10rem;
   transform: rotate(90deg);
   visibility: visible;
-  content: url('./profilepic.JPG');
 }
 .email-anchor {
   text-decoration: none;

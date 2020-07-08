@@ -67,8 +67,8 @@ h* {
   border-radius: 50%;
   margin: auto;
   height: 10rem;
-  transform: rotate(90deg);
   visibility: visible;
+  content: url('profilepic2.JPG');
 }
 .email-anchor {
   text-decoration: none;
@@ -188,7 +188,7 @@ footer {
     content: url('./profile_pic3.JPG');
     transform: rotate(1800deg);
   }
-  *{
+  * {
     font-family: sans-serif;
   }
 }

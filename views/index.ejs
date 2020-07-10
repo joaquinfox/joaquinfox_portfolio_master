@@ -1,65 +1,38 @@
 <%-include('partials/header') %>
-<main class="inner-wrapper" role="main">
-
-  <article class="article-container" role="complementary">
-    <div class="article-projects">
-      <h1 class="article-header">My Work</h1>
-      <p class="article-project-p">
-        <a
-          class="article-project-link"
-          href="https://helpful-client.herokuapp.com/"
-          >Helpful:</a
-        >
-        Bringing communities together through volunteerism.
-        <br />
-        <a
-          class="project-anchors"
-          href="https://github.com/thinkful-ei26/Helpful-Client/blob/master/README.md"
-          >README.md <i class="fab fa-github fa-sm"></i
-        ></a>
-      </p>
-      <p class="article-project-p">
-        <a class="article-project-link" href="http://codyroutson.info/"
-          >CodyRoutson.info:</a
-        >
-        A professional page.
-        <br />
-        <a
-          class="project-anchors"
-          href="https://github.com/joaquinfox/codyroutson.github.io"
-          >README.md <i class="fab fa-github fa-sm"></i
-        ></a>
-      </p>
-      <p class="article-project-p">
-        <a
-          class="article-project-link"
-          href="https://tagalog-teacher.herokuapp.com/"
-          >Tagalog Teacher:</a
-        >
-        A learning app built on a spaced-repetition algorithm and a linked-list
-        data structure.
-        <br />
-        <a
-          class="project-anchors"
-          href="https://github.com/thinkful-ei26/Tagalog-Trisha-Joaquin-client/blob/master/README.md"
-          >README.md <i class="fab fa-github fa-sm"></i
-        ></a>
-      </p>
-      <p class="article-project-p">
-        <a
-          class="article-project-link"
-          href="https://github.com/joaquinfox/noteful/"
-          >Noteful:</a
-        >
-        A node express backend using Passport for user authentication and
-        testing with Mongoose.
-        <br />
-        <a class="project-anchors" href=""
-          >README.md <i class="fab fa-github fa-sm"></i
-        ></a>
-      </p>
+<main id="hero" role="main">
+  <div id="hero_container">
+    <div id="poster_box">
+      <h1>Joaquin Fox</h1>
+      <h4>Software and Web Development</h4>
+      <div class="social-content">
+        <div class="anchor-container">
+          <a
+            class="social-anchors"
+            href="https://github.com/joaquinfox?tab=repositories"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a
+            class="social-anchors"
+            href="https://www.linkedin.com/in/joaquin-fox-203182178/"
+          >
+            <i class="fab fa-linkedin-in fa-2x"> </i>
+          </a>
+          <a class="social-anchors" href="mailto:joaquin.fox@gmail.com">
+            <i class="far fa-envelope fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- <hr /> -->
+      <div id="hero_flex">
+        <div class='hero_flex_row'>
+          <div class="poster_box_section">Gallery</div>
+          <div class="poster_box_section">Tools</div>
+        </div>
+        <div class='hero_flex_row'>
+          <div class="poster_box_section">Writing</div>
+          <div class="poster_box_section">About</div>
+        </div>
+      </div>
     </div>
-  </article>
+  </div>
 </main>
-
-<%-include('partials/footer') %>

@@ -4,76 +4,63 @@
 }
 h* {
   font-family: 'Roboto', sans-serif;
-
-
 }
 
- #hero{
+#hero {
   background-image: url('/images/denes-kozma-IAkqIgTYkHI-unsplash.jpg');
   background-size: cover;
   height: 100vh;
 }
-#hero_container{
-  margin:auto ;
-  max-width: 30%;  
+#hero_container {
+  margin: auto;
+  max-width: 30%;
 }
-#poster_box{
-  font-family:'Roboto', sans-serif; 
+#poster_box {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  color:rgb(209, 231, 229);
-  margin-top:30%;
+  color: rgb(209, 231, 229);
+  margin-top: 30%;
   padding-bottom: 5%;
   background-color: rgba(0, 3, 3, 0.5);
   border-radius: 5%;
-  box-shadow:.5rem .25rem rgba(0,0,0,.7);
+  box-shadow: 0.5rem 0.25rem rgba(0, 0, 0, 0.7);
 }
-#poster_box h1{
+#poster_box h1 {
   text-align: center;
-  padding-top:7%;
+  padding-top: 7%;
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 100;
-  letter-spacing: .3rem
-  ;
+  letter-spacing: 0.3rem;
 }
-#poster_box h4{
+#poster_box h4 {
   text-align: center;
-  padding:5% 0%;
-  /* font-family: 'Do Hyeon', sans-serif; */
+  padding: 5% 0%;
   font-size: 1.5rem;
   font-weight: 100;
-  letter-spacing: .2rem
-  ;
+  letter-spacing: 0.2rem;
 }
-/* #poster_box hr{
-  margin:0 20%;
-  background-color: #eee;
-  border: 0 none;
-  color: #eee;
-  height: .02rem;
-} */
-.hero_flex_row{
+
+.hero_flex_row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-#hero_flex{
-  /* display: flex; */
-}
-.poster_box_section{
-
+.poster_box_section {
   font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: .35rem;
-  padding:5%;
+  letter-spacing: 0.35rem;
+  padding: 5%;
   margin: 2%;
+}
+.poster_box_section:hover {
+  color: rgba(16, 128, 233, 0.9);
+  transition: all 0.5s ease;
 }
 
 .page-container {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-
 }
 /*social SYLES*/
 .social {
@@ -117,7 +104,7 @@ h* {
   line-height: 1.5;
   border: solid #222 2px;
   padding: 2%;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
   color: white;
   background: #455;
 }
@@ -132,7 +119,7 @@ h* {
 .email-anchor {
   text-decoration: none;
   color: orange;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 .email-anchor:hover {
@@ -154,7 +141,7 @@ h* {
   border: #222 solid 2px;
   padding: 2%;
   margin: 2% 0;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 .article-project-p:hover > .project-anchors,
 .article-project-p:hover {
@@ -172,7 +159,7 @@ h* {
   color: #455;
   text-decoration: none;
   font-size: 75%;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 .project-anchors:hover {
   font-size: 85%;
@@ -193,7 +180,7 @@ h* {
   padding: 5%;
   margin: 5% auto;
   width: 9rem;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 .techstack-item:hover {
   color: orange;
@@ -208,7 +195,7 @@ footer {
 .resume {
   text-decoration: none;
   color: #455;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
   border: 1px solid black;
   padding: 0.5%;
   font-size: 75%;

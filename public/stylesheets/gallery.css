@@ -1,0 +1,53 @@
+/*GALLERY STYLES*/
+#gallery-main-container {
+}
+#gallery-section-header {
+  /* text-align: center;
+  display: block; */
+}
+#gallery-flex-container {
+  /* padding: 5% 0%;; */
+  display: flex;
+}
+.gallery-row {
+  flex-direction: row;
+}
+.gallery-card {
+  height: 100%;
+  /* width: 30rem; */
+  /* padding: 2%; */
+  text-align: center;
+  background-color: pink;
+  /* margin: 2%; */
+}
+
+/* @media (max-width: 800px) {
+  .social-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+  }
+  .article-ul-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .techstack-item {
+    margin: 3%;
+  }
+  .social-img {
+    display: none;
+  }
+} */
+/* @media (max-width: 600px) {
+  .profile-img {
+    content: url('./profile_pic3.JPG');
+    transform: rotate(1800deg);
+  }
+  * {
+    font-family: sans-serif;
+  }
+} */

@@ -40,7 +40,7 @@ ul {
 .top-nav-a:hover {
   font-weight: 500;
   color: rgb(15, 10, 10);
-  background-color: #fff;
+  background-color: #fffff9;
   border-radius: 15%;
 }
 @media screen and (max-width: 600px) {
@@ -49,30 +49,31 @@ ul {
     flex-direction: column;
   }
   .top-nav-a {
-    font-size:1rem;
+    font-size: 1rem;
   }
 }
 
 /* MAIN FLEX CONTAINER */
 #main-container {
   display: flex;
-  margin: 0 15%;
-  /* padding: 0 10%; */
   height: 100vh;
 }
-
 
 /* FOOTER */
 footer {
   background: #eee;
   color: orange;
 }
+footer,
+div {
+  margin: 2% 0 0 0 ;
+  color: rgb(112, 100, 100);
+}
 .resume {
   text-decoration: none;
   color: #455;
   transition: all 0.25s ease;
   border: 1px solid black;
-  padding: 0.5%;
   font-size: 75%;
 }
 .resume:hover {

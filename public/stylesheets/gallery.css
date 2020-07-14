@@ -1,1 +1,82 @@
 /*GALLERY STYLES*/
+
+/* HERO TEXT */
+.hero-image {
+  background-image: url('/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');
+  background-size: cover;
+  background-position: left bottom;
+  padding: 10%;
+}
+
+.hero-text {
+  font-size: 10rem;
+  position: absolute;
+  top: 3rem;
+  left: 20rem;
+  font-weight: bolder;
+}
+#hero-span-1 {
+  color: red;
+}
+#hero-span-2 {
+  color: purple;
+}
+#hero-span-3 {
+  color: green;
+}
+#hero-span-4 {
+  color: rgb(0, 255, 221);
+}
+#hero-span-5 {
+  color: yellow;
+}
+#hero-span-6 {
+  color: lavender;
+}
+#hero-span-7 {
+  color: lightgoldenrodyellow;
+}
+.hero-text,
+span {
+  margin: 2% -2%;
+}
+
+/* GALERY BODY */
+#gallery-flex-container {
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  align-content: space-around;
+  /* flex-direction: column; */
+}
+
+.gallery-card {
+  flex: 1;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  text-align: center;
+  padding: 3%;
+  margin: 2%;
+  height: 20rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #gallery-flex-container {
+    flex-direction: column;
+  }
+  .hero-text {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  #gallery-flex-container {
+    flex-direction: column;
+  }
+  .hero-text {
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+  }
+}

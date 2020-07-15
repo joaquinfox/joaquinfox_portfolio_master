@@ -61,11 +61,11 @@ span {
   height: 20rem;
   background-image: url('/images/horseheadir_hubble_960_thumb.jpg');
   color: white;
+  line-height: 1.5;
 }
 .gallery-card a {
   color: white;
   font-size: 1.5rem;
-  /* padding: 3%; */
 }
 
 @media screen and (max-width: 1200px) {

@@ -57,17 +57,18 @@ ul {
 #main-container {
   display: flex;
   height: 100vh;
-  
 }
 
 /* FOOTER */
 footer {
   background: #eee;
   color: orange;
+  text-align: center;
+  padding: 2%;
 }
 footer,
 div {
-  margin: 2% 0 0 0 ;
+  margin: 2% 0 0 0;
   color: rgb(112, 100, 100);
 }
 .resume {
@@ -75,6 +76,8 @@ div {
   color: #455;
   transition: all 0.25s ease;
   border: 1px solid black;
+  border-radius: 12%;
+  padding: 1%;
   font-size: 75%;
 }
 .resume:hover {

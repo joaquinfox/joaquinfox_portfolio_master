@@ -1,11 +1,11 @@
 /*GALLERY STYLES*/
 
 /* HERO SECTION */
-.hero-image-gallery {
+.hero-image#hero-gallery {
   background-image: url('/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');
   background-size: cover;
   background-position: left bottom;
-  padding: 10%;
+  padding: 12%;
 }
 
 .hero-text {
@@ -45,19 +45,14 @@ span {
 #gallery-flex-container {
   margin: 0 20%;
   display: flex;
-  justify-content: center;
-  align-items: top;
-  align-content: space-around;
-  /* flex-direction: column; */
 }
 
 .gallery-card {
   flex: 1;
-  flex-wrap: wrap;
   border: 1px solid black;
   text-align: center;
   padding: 3%;
-  margin: 2%;
+  margin:  3%;
   height: 20rem;
   background-image: url('/images/horseheadir_hubble_960_thumb.jpg');
   color: white;

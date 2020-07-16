@@ -17,12 +17,7 @@ h6 {
 }
 
 /* MAIN FLEX CONTAINER */
-#main-container {
-  /* position:relative; */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 
 /* HERO */
 .hero-image {
@@ -76,8 +71,6 @@ footer {
   margin-top:10%;
   background: #eee;
   color: orange;
-  /* text-align: center; */
-  /* padding-top: 2% ; */
   display: flex;
   flex-direction: column;
 }

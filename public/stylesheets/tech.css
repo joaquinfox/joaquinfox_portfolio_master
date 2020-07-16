@@ -1,0 +1,6 @@
+/* HERO SECTION */
+header#hero-tech {
+    background-image: url('/images/tools.jpg');
+    background-size: cover;
+    background-position: center;
+  }

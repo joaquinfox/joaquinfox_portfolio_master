@@ -13,6 +13,10 @@ header#hero-about {
   text-align: center;
   margin: 5% 0;
 }
+#section-header h1 {
+  color: rgb(112, 100, 100);
+  margin-bottom: 2%;
+}
 .profile-img {
   border-radius: 50%;
   height: 12rem;
@@ -23,19 +27,20 @@ header#hero-about {
 .section-p {
   line-height: 2;
 }
-
-/* .email-anchor {
-  text-decoration: none;
+.anchor-container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.header-anchors {
+  padding: 2%;
+  margin-bottom: 2%;
+  color: rgb(112, 100, 100);
+  transition: all 0.5s ease;
+}
+.header-anchors:hover {
   color: orange;
-  transition: all 0.2aside aside5s ease;
-} */
+}
 
-/* .email-anchor:hover {
-  color: white;
-  border: 1px solid orange;
-  border-radius: 50%;
-  padding: 1%;
-} */
 footer {
   position: relative;
 }

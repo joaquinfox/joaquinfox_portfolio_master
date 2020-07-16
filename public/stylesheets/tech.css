@@ -13,7 +13,7 @@ header#hero-tech {
 
 #tech-header {
   margin: auto;
-  padding-bottom:5%;
+  padding-bottom: 5%;
 }
 #text-container {
   margin: 5% 15% 10% 15%;
@@ -33,6 +33,17 @@ header#hero-tech {
   background-color: #eee;
 }
 .techstack-item {
-  list-style: none;
   margin: 5%;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: rgb(112, 100, 100);
+  padding: 5% ;
+}
+
+.techstack-item:hover {
+  font-weight: 500;
+  color: rgb(15, 10, 10);
+  color:orange;
+  border-radius: 15%;
 }

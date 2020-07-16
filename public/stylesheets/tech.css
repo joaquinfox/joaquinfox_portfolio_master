@@ -5,6 +5,19 @@ header#hero-tech {
   background-position: center;
 }
 
+.hero-text {
+  position: absolute;
+  top: 0rem;
+  left: 10rem;
+  font-weight: bolder;
+}
+
+.hero-text,
+h1 {
+  color: rgba(112, 100, 100, 0.8);
+}
+
+/* TECH FLEX CONTAINER */
 #tech-flex-container {
   display: flex;
   flex-direction: column;
@@ -15,6 +28,7 @@ header#hero-tech {
   margin: auto;
   padding-bottom: 5%;
 }
+
 #text-container {
   margin: 5% 15% 10% 15%;
   line-height: 2;
@@ -38,12 +52,12 @@ header#hero-tech {
   text-decoration: none;
   transition: all 0.5s ease;
   color: rgb(112, 100, 100);
-  padding: 5% ;
+  padding: 5%;
 }
 
 .techstack-item:hover {
   font-weight: 500;
   color: rgb(15, 10, 10);
-  color:orange;
+  color: orange;
   border-radius: 15%;
 }

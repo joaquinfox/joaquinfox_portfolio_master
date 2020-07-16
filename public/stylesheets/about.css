@@ -34,7 +34,6 @@ header#hero-about {
 .header-anchors {
   padding: 2%;
   margin-bottom: 2%;
-  color: rgb(112, 100, 100);
   transition: all 0.5s ease;
 }
 .header-anchors:hover {

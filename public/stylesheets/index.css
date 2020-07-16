@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 h1,
 h2,
@@ -14,6 +15,7 @@ h5,
 h6 {
   font-family: 'Do Hyeon', sans-serif;
   letter-spacing: 0.25rem;
+  color: rgb(112, 100, 100);
 }
 
 /* MAIN FLEX CONTAINER */

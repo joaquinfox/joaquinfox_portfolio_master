@@ -1,6 +1,38 @@
 /* HERO SECTION */
 header#hero-tech {
-    background-image: url('/images/tools.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('/images/tools.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#tech-flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 20%;
+}
+
+#tech-header {
+  margin: auto;
+  padding-bottom:5%;
+}
+#text-container {
+  margin: 5% 15% 10% 15%;
+  line-height: 2;
+  border: 0.015rem solid rgb(240, 223, 223);
+  padding: 3%;
+  box-shadow: rgb(240, 223, 223) 0.25rem 0.15rem;
+}
+
+#techstack-ul {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 5%;
+  background-color: #eee;
+}
+.techstack-item {
+  list-style: none;
+  margin: 5%;
+}

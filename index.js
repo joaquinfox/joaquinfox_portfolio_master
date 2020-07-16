@@ -3,9 +3,9 @@ const PORT = process.env.PORT;
 
 express()
   .set('view engine', 'ejs')
-  .use(express.static('public'))
+  .use(express.static(path.join(__dirname, 'public')))
   .get('/', (req, res) => {
-    res.render('landing');
+    res.render('index.html');
   })
   .get('/about', (req, res) => {
     res.render('about');

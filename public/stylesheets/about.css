@@ -1,3 +1,10 @@
+/* HERO SECTION */
+header#hero-about {
+  background-image: url('/images/denes-kozma-IAkqIgTYkHI-unsplash2.jpg');
+  /* background-size: cover; */
+  /* background-position: left bottom; */
+  /* padding: 12%; */
+}
 /*SECTION STYLES*/
 #about-flex-container {
   margin: 0 20%;

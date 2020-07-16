@@ -18,9 +18,10 @@ h6 {
 
 /* MAIN FLEX CONTAINER */
 #main-container {
+  /* position:relative; */
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* HERO */

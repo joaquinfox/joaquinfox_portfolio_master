@@ -3,18 +3,12 @@ header#hero-about {
   background-image: url('/images/Foxy Design.png');
   background-size: cover;
   background-position: center;
-  /* padding: 12%; */
 }
-/*SECTION STYLES*/
+/*ABOUT FLEX CONTAINER*/
 #about-flex-container {
-  margin: 2% 25%;
-  display: flex;
-  flex-direction: column;
+  margin: 5% 20%;
 }
 
-/* #section-about-me .section-p a {
-  transition: all 0.5s ease;
-} */
 #section-header {
   text-align: center;
   margin: 5% 0;
@@ -23,8 +17,8 @@ header#hero-about {
   border-radius: 50%;
   height: 12rem;
 }
-.about-content{
-  margin-bottom:5%;
+.about-content {
+  margin-bottom: 5%;
 }
 .section-p {
   line-height: 2;
@@ -42,3 +36,6 @@ header#hero-about {
   border-radius: 50%;
   padding: 1%;
 } */
+footer {
+  position: relative;
+}

@@ -8,24 +8,23 @@
     <a class="top-nav-a" href="/blog">Blog</a>
   </ul>
 </nav>
-<section id="about-flex-container">
-  <section id="section-about-me" role="complementary">
-    <div id="section-header">
-      <h1 id="section-p-hi">Joaquin Fox</h1>
-      <img
-        src="images/profilepic3.JPG"
-        class="profile-img"
-        id="file-input"
-        alt="profile picture of Joaquin Fox"
-      />
-    </div>
-
+<div id="about-flex-container">
+  <div id="section-header">
+    <h1>Joaquin Fox</h1>
+    <img
+      src="images/profilepic3.JPG"
+      class="profile-img"
+      id="file-input"
+      alt="profile picture of Joaquin Fox"
+    />
+  </div>
+  <section class="about-content">
     <p class="section-p">
       I build websites and apps with JavaScript. From the first rough draft to
       the final gem, I can build your server and client, deploy your creation,
       and offer continued support beyond that.
     </p>
-    <br />
+
     <p class="section-p">
       Before studying software engineering at
       <a class="about-a email-anchor" href="https://thinkful.com">Thinkful</a>
@@ -52,6 +51,6 @@
       to start the conversation.
     </p>
   </section>
-</section>
+</div>
 
 <%-include('partials/footer') %>

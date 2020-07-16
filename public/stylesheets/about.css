@@ -1,45 +1,44 @@
 /* HERO SECTION */
 header#hero-about {
-  background-image: url('/images/denes-kozma-IAkqIgTYkHI-unsplash2.jpg');
-  /* background-size: cover; */
-  /* background-position: left bottom; */
+  background-image: url('/images/Foxy Design.png');
+  background-size: cover;
+  background-position: center;
   /* padding: 12%; */
 }
 /*SECTION STYLES*/
 #about-flex-container {
-  margin: 0 20%;
-}
-#section-about-me {
-  line-height: 1.5;
-  border: solid #222 2px;
-  padding: 10%;
-  transition: all 0.25s ease;
-  color: white;
-  background: #455;
-  font-size: 1.5rem;
-}
-#section-about-me .section-p a {
-  transition: all 0.5s ease;
-}
-#section-header {
-  text-align: center;
+  margin: 2% 25%;
+  display: flex;
+  flex-direction: column;
 }
 
+/* #section-about-me .section-p a {
+  transition: all 0.5s ease;
+} */
+#section-header {
+  text-align: center;
+  margin: 5% 0;
+}
 .profile-img {
   border-radius: 50%;
-  margin: 0 auto;
-  height: 10rem;
-  visibility: visible;
+  height: 12rem;
 }
-.email-anchor {
+.about-content{
+  margin-bottom:5%;
+}
+.section-p {
+  line-height: 2;
+}
+
+/* .email-anchor {
   text-decoration: none;
   color: orange;
   transition: all 0.2aside aside5s ease;
-}
+} */
 
-.email-anchor:hover {
+/* .email-anchor:hover {
   color: white;
   border: 1px solid orange;
   border-radius: 50%;
   padding: 1%;
-}
+} */

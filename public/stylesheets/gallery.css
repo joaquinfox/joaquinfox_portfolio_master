@@ -11,6 +11,7 @@ header#hero-gallery {
   top: 3rem;
   left: 20rem;
   font-weight: bolder;
+  font-family: 'Do Hyeon', sans-serif;
 }
 #hero-span-1 {
   color: red;
@@ -80,6 +81,6 @@ span {
   }
 }
 
-.resume {
+footer .resume {
   display: none;
 }

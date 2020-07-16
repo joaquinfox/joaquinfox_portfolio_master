@@ -61,3 +61,7 @@ h1 {
   color: orange;
   border-radius: 15%;
 }
+
+footer .resume {
+  display: none;
+}

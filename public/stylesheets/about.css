@@ -8,7 +8,7 @@ header#hero-about {
   font-size: 12rem;
   position: absolute;
   top: 0rem;
-  left: 10rem;
+  left: 6rem;
   font-weight: bolder;
   color: rgba(212, 190, 66, 0.8);
 }
@@ -59,6 +59,6 @@ i:hover {
 footer {
   position: relative;
 }
-footer .resume {
+footer.resume {
   display: inline;
 }

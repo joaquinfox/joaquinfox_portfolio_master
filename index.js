@@ -4,6 +4,7 @@ const PORT = process.env.PORT;
 express()
   .set('view engine', 'ejs')
   .use(express.static((__dirname, 'public')))
+
   .get('/', (req, res) => {
     res.redirect('/gallery');
   })

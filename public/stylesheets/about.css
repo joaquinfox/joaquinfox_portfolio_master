@@ -3,20 +3,21 @@ header#hero-about {
   background-image: url('/images/Foxy Design.png');
   background-size: cover;
   background-position: center;
+  display: flex;
 }
 #hero-text {
-  font-size: 12rem;
+  font-size: 5rem;
   position: absolute;
-  top: 4rem;
-  left: 6rem;
+  top: 0;
+  left: 0;
   font-weight: bolder;
   color: rgba(212, 190, 66, 0.8);
 }
 
-
 /*ABOUT FLEX CONTAINER*/
 #about-flex-container {
   margin: 5% 20%;
+  display: flex;
 }
 
 #section-header {
@@ -59,7 +60,4 @@ i:hover {
 
 footer {
   position: relative;
-}
-footer.resume {
-  display: inline;
 }

@@ -5,7 +5,7 @@ express()
   .set('view engine', 'ejs')
   .use(express.static((__dirname, 'public')))
   .get('/', (req, res) => {
-    res.render('index');
+    res.redirect('/gallery');
   })
   .get('/about', (req, res) => {
     res.render('about');

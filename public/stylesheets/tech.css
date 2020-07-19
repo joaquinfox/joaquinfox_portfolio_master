@@ -1,20 +1,11 @@
 /* HERO SECTION */
 header#hero-tech {
   background-image: url('/images/tools.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
-.hero-text {
-  position: absolute;
-  top: 0rem;
-  left: 10rem;
-  font-weight: bolder;
-}
-
-.hero-text,
-h1 {
-  color: rgba(112, 100, 100, 0.8);
+#hero-tech-text {
+  color: rgba(112, 100, 100, 0.7);
+  font-size: 15vw;
 }
 
 /* TECH FLEX CONTAINER */

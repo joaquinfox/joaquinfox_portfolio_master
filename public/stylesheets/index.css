@@ -15,11 +15,10 @@ h5,
 h6 {
   font-family: 'Do Hyeon', sans-serif;
   letter-spacing: 0.25rem;
-  /* color: rgb(112, 100, 100); */
+  color: rgb(112, 100, 100);
 }
 
 /* MAIN FLEX CONTAINER */
-
 
 /* HERO */
 .hero-image {
@@ -27,9 +26,10 @@ h6 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: left bottom;
-  padding: 12%;
+  background-position: center;
 }
+
+
 /* NAV BAR */
 nav {
   background-color: #eee;
@@ -70,7 +70,7 @@ ul {
 
 /* FOOTER */
 footer {
-  margin-top:10%;
+  margin-top: 10%;
   background: #eee;
   color: orange;
   display: flex;

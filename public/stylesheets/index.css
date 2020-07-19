@@ -33,6 +33,7 @@ h6 {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
+  height: 50vh;
 }
 
 /* NAV BAR */
@@ -67,6 +68,9 @@ ul {
   #social-anchor-container {
     font-size: 2vw;
   }
+  .hero-image {
+    height: 30vh;
+  }
 }
 @media screen and (max-width: 600px) {
   nav,
@@ -90,6 +94,9 @@ ul {
   }
   #profile-img {
     display: none;
+  }
+  .hero-image {
+    height: auto;
   }
 }
 

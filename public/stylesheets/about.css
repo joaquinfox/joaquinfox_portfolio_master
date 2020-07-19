@@ -36,7 +36,7 @@ i {
   line-height: 2;
 }
 #social-anchor-container {
-  margin:0 30% 5% 30%;
+  margin: 0 30% 5% 30%;
   display: flex;
   justify-content: space-around;
 }

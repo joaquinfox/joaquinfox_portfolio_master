@@ -2,33 +2,35 @@
 
 /* HERO SECTION */
 header#hero-gallery {
-  background-image: url('/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');
+  background-image: url('/images/Foxy Design.png');
 }
 
 #hero-gallery-text {
   font-family: 'Do Hyeon', sans-serif;
-  font-size: 12vw;;
+  font-size: 12vw;
+  background-color: rgba(230, 218, 229, 0.6);
+  margin-left: 2%;
 }
 #hero-span-1 {
-  color: red;
+  color: rgb(202, 21, 30);
 }
 #hero-span-2 {
-  color: purple;
+  color: rgb(207, 18, 207);
 }
 #hero-span-3 {
-  color: green;
+  color: rgb(34, 170, 34);
 }
 #hero-span-4 {
   color: rgb(0, 255, 221);
 }
 #hero-span-5 {
-  color: yellow;
+  color: rgb(50, 19, 226);
 }
 #hero-span-6 {
-  color: lavender;
+  color: rgb(25, 25, 155);
 }
 #hero-span-7 {
-  color: lightgoldenrodyellow;
+  color: rgb(226, 19, 209);
 }
 .hero-span-item {
   padding: 0 -2%;

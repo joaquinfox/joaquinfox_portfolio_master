@@ -23,7 +23,7 @@ i {
   color: rgb(112, 100, 100);
   margin-bottom: 2%;
 }
-.profile-img {
+#profile-img {
   border-radius: 50%;
   height: 12rem;
 }
@@ -35,17 +35,16 @@ i {
 .section-p {
   line-height: 2;
 }
-.anchor-container {
-  text-align: center;
-  margin-bottom: 5%;
+#social-anchor-container {
+  margin:0 30% 5% 30%;
+  display: flex;
+  justify-content: space-around;
 }
 .header-anchors {
-  padding: 2%;
-  margin-bottom: 2%;
   transition: all 0.5s ease;
 }
 .header-anchors:hover {
-  color: orange;
+  color:rgba(212, 190, 66, 0.7);
 }
 i:hover {
   transition: all 0.5s ease;

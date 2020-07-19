@@ -2,10 +2,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  /* width: 100vw; */
 }
 h1,
 h2,
@@ -57,8 +63,8 @@ ul {
   background-color: #fffff9;
   border-radius: 15%;
 }
-@media screen and (max-width:1000px) {
-  #social-anchor-container  {
+@media screen and (max-width: 1000px) {
+  #social-anchor-container {
     font-size: 2vw;
   }
 }

@@ -17,10 +17,9 @@
   box-shadow: 0.5rem 0.25rem rgba(0, 0, 0, 0.7);
   text-align: center;
 }
-#poster_box,
-h1,
-p {
-  color: rgb(185, 124, 32);
+#poster_box,#blog-h1
+ {
+  /* color: rgb(185, 124, 32); */
 }
 #button-blog {
   margin-top: 5%;

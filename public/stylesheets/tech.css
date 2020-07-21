@@ -1,8 +1,4 @@
 /* HERO SECTION */
-#tech-flex-container {
-  margin: 0;
-  height: 100vh;
-}
 #hero-tech {
   background-image: url('/images/tools-mini.png');
 }
@@ -33,7 +29,7 @@
 }
 
 #techstackItems {
-  margin: auto auto 0;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
@@ -42,7 +38,6 @@
 }
 
 .techstack-item {
-  margin: 5% 5% 5% 0;
   list-style: none;
   text-decoration: none;
   transition: all 0.5s ease;

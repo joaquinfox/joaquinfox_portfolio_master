@@ -21,7 +21,7 @@
 
 #blog-a {
   border-radius: 22%;
-  font-size: 2rem;
+  font-size: auto;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: none;

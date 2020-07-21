@@ -87,7 +87,7 @@ span {
 }
 @media screen and (max-width: 600px) {
   #main-container {
-    background: url('/images/Foxy Design.png');
+    background: url('/images/Foxy Design.png') no-repeat bottom fixed;
     background-size: cover;
   }
   #gallery-flex-container {

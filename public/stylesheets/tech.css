@@ -1,4 +1,8 @@
 /* HERO SECTION */
+#tech-flex-container {
+  margin: 0;
+  height: 100vh;
+}
 #hero-tech {
   background-image: url('/images/tools-mini.png');
 }
@@ -29,15 +33,16 @@
 }
 
 #techstackItems {
-  flex-wrap: wrap;
+  margin: auto auto 0;
+  display: flex;
   justify-content: space-around;
-  margin: auto auto 5%;
+  flex-flow: row wrap;
   border: none;
   box-shadow: none;
 }
 
 .techstack-item {
-  margin: 5%;
+  margin: 5% 5% 5% 0;
   list-style: none;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -75,10 +80,10 @@
     color: white;
   }
   #techHeader {
-    background-image: linear-gradient(orange, rgb(196, 122, 122));
+    background-color: rgba(235, 232, 220, 0.5);
   }
-  #techstackItems,.techstack-item {
+  #techstackItems,
+  .techstack-item {
     color: white;
-    /* background-color: white; */
   }
 }

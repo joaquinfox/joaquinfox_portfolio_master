@@ -85,9 +85,18 @@ span {
     font-size: 6rem;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
+  #main-container {
+    background: url('/images/Foxy Design.png');
+    background-size: cover;
+  }
   #gallery-flex-container {
     flex-direction: column;
+    background-color: rgba(199, 166, 166, 0.5);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    color: white;
   }
   .hero-text {
     font-size: 4rem;

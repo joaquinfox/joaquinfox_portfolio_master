@@ -1,6 +1,6 @@
 /* HERO SECTION */
 header#hero-about {
-  background-image: url('/images/about.jpeg');
+  background-image: url('/images/about.png');
 }
 #hero-about-text {
   font-size: 12vw;

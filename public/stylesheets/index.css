@@ -42,11 +42,9 @@ h6 {
 /* NAV BAR */
 nav {
   background-color: #eee;
-}
-nav,
-ul {
   text-align: center;
-  line-height: 3;
+  display: flex;
+  justify-content: center;
 }
 
 .top-nav-a {
@@ -54,12 +52,11 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.5s ease;
-  font-size: 1.5rem;
+  /* font-size: 100%; */
   color: rgb(112, 100, 100);
   font-weight: 100;
   letter-spacing: 0.5rem;
-  width: 10vw;
-  padding: 1% 2%;
+  padding: 1% 5%;
 }
 .top-nav-a:hover {
   font-weight: 500;
@@ -74,6 +71,7 @@ ul {
   .hero-image {
     height: 30vh;
   }
+
 }
 @media screen and (max-width: 600px) {
   nav,
@@ -95,18 +93,16 @@ ul {
   body {
     font-size: 1rem;
   }
-  #profile-img {
+  #profile-img,.hero-image {
     display: none;
   }
-  .hero-image {
-    height: auto;
-  }
+
 }
 
 /* FOOTER */
 footer {
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: 0;
   width: 100vw;
   background: #eee;
   color: orange;

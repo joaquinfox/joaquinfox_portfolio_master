@@ -18,22 +18,20 @@
   text-align: center;
 }
 
-#button-blog {
-  margin-top: 5%;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 2%;
-  border-radius: 22%;
 
-  font-size: 1rem;
-}
-#button-blog,#blog-a {
-  padding: 5%;
+#blog-a {
+  border-radius: 22%;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  background-color: green;
-  color: white;
+  color: green;
+}
+
+#blog-a:hover {
+  color: green;
+  background-color: white;
 }
 footer {
   margin: 0;

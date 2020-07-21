@@ -7,6 +7,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+#main-container {
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -101,7 +105,9 @@ ul {
 
 /* FOOTER */
 footer {
-  margin-top: 10%;
+  position:absolute;
+  bottom:0;
+  width: 100vw;
   background: #eee;
   color: orange;
   display: flex;
@@ -111,21 +117,4 @@ footer,
 span {
   text-align: center;
   color: rgb(112, 100, 100);
-}
-.resume {
-  width: 6vw;
-  margin: 1% auto 0;
-  text-decoration: none;
-  color: #455;
-  transition: all 0.25s ease;
-  border: 1px solid black;
-  border-radius: 12%;
-  padding: 1%;
-  font-size: 75%;
-}
-.resume:hover {
-  background: #455;
-  color: orange;
-  font-weight: bold;
-  border-radius: 50%;
 }

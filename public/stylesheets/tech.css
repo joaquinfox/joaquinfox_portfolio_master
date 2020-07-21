@@ -1,5 +1,5 @@
 /* HERO SECTION */
-header#hero-tech {
+#hero-tech {
   background-image: url('/images/tools-mini.png');
 }
 
@@ -31,12 +31,11 @@ header#hero-tech {
 #techstack-ul {
   flex-wrap: wrap;
   justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 5%;
-  background-color: #eee;
+  margin: auto auto 5%;
+  border: none;
+  box-shadow: none;
 }
+
 .techstack-item {
   margin: 5%;
   list-style: none;
@@ -53,6 +52,25 @@ header#hero-tech {
   border-radius: 15%;
 }
 
-footer .resume {
-  display: none;
+@media screen and (max-width: 1000px) {
+  #text-container {
+    margin: auto auto 5%;
+    border: none;
+    box-shadow: none;
+  }
+  #hero-tech {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #main-container {
+    background: url('/images/tools-mini.png');
+    background-size: cover;
+  }
+  #tech-flex-container {
+    background-color: rgba(199, 166, 166, 0.5);
+    margin: 0;
+    height: 100vh;
+    color: white;
+  }
 }

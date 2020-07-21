@@ -28,7 +28,7 @@
   box-shadow: rgb(240, 223, 223) 0.25rem 0.15rem;
 }
 
-#techstack-ul {
+#techstackItems {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto auto 5%;
@@ -73,5 +73,12 @@
     margin: 0;
     height: 100vh;
     color: white;
+  }
+  #techHeader {
+    background-image: linear-gradient(orange, rgb(196, 122, 122));
+  }
+  #techstackItems,.techstack-item {
+    color: white;
+    /* background-color: white; */
   }
 }

@@ -76,9 +76,7 @@ footer {
     margin: 0;
     height: 100vh;
   }
-  h1 {
-    color: red;
-    /* background-color: rgba(212, 136, 66, 0.8); */
+  #aboutHeader{
     background-image: linear-gradient(orange, rgb(196, 122, 122));
   }
   .header-anchors,

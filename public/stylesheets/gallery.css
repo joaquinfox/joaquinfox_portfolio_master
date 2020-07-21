@@ -1,7 +1,7 @@
 /*GALLERY STYLES*/
 
 /* HERO SECTION */
-header#hero-gallery { 
+header#hero-gallery {
   background-image: url('/images/Foxy Design.png');
   margin: 0;
 }
@@ -46,7 +46,7 @@ span {
 #gallery-flex-container {
   margin: 5% 20%;
   display: flex;
-  height: 100%;
+  font-size: 60%;
 }
 
 .gallery-card {
@@ -56,7 +56,7 @@ span {
   margin: 3%;
   align-content: flex-start;
   /*  Card backgrounds are to be image thumbnails
-  background-image: url('/images/horseheadir_hubble_960_thumb.jpg'); */
+ */
   color: rgb(112, 100, 100);
   line-height: 1.5;
   border-radius: 12%;

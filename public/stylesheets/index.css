@@ -42,10 +42,11 @@ h6 {
 }
 
 /* NAV BAR */
-nav {
-  background-color: #eee;
+.top-nav  {
+  background-color:#eee;
   text-align: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 

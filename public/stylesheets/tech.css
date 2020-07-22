@@ -47,10 +47,22 @@
 }
 
 .techstack-item:hover {
-  font-weight: 500;
   color: rgb(15, 10, 10);
   color: orange;
   border-radius: 15%;
+}
+picture img {
+  transition: all 0.5s ease;
+}
+picture img:hover {
+  border-bottom: orange solid 2px;
+}
+.techstack-item i {
+  font-size: 7rem;
+}
+.techstack-item {
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 1000px) {
@@ -65,6 +77,11 @@
   #techstack-item {
     padding: auto;
   }
+  .techstack-item i {
+    font-size: 3rem;
+  }
+
+  
 }
 @media screen and (max-width: 600px) {
   #main-container {

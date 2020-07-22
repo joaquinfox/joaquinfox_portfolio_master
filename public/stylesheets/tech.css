@@ -95,6 +95,10 @@ picture img:hover {
     height: 100vh;
     color: white;
   }
+  h1#techHeader{
+    text-align: left;
+    padding-left:10%;
+  }
   #techHeader {
     background-color: rgba(235, 232, 220, 0.5);
   }

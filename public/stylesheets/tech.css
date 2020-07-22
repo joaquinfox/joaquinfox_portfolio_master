@@ -80,14 +80,16 @@
   
 }
 @media screen and (max-width: 600px) {
-  #main-container {
+  #mainContainer {
     background: url('/images/tools-mini.png');
     background-size: cover;
+    /* color:white; */
   }
   #text-container {
     margin: auto 5%;
     border: none;
     box-shadow: none;
+    color:white;
   }
   #tech-flex-container {
     background-color: rgba(199, 166, 166, 0.5);

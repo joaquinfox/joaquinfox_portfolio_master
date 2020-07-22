@@ -55,10 +55,10 @@
 .mongoDB img:hover {
   border-bottom: orange solid 2px;
 }
- .techstack-item i {
+.techstack-item i {
   font-size: 7rem;
 }
- .techstack-item {
+.techstack-item {
   font-size: 2rem;
   font-weight: bolder;
 }
@@ -76,29 +76,25 @@
   .techstack-item i {
     font-size: 3rem;
   }
-
-  
 }
 @media screen and (max-width: 600px) {
   #mainContainer {
     background: url('/images/tools-mini.png');
     background-size: cover;
-    /* color:white; */
   }
   #text-container {
     margin: auto 5%;
     border: none;
     box-shadow: none;
-    color:white;
+    color: white;
   }
   #tech-flex-container {
     background-color: rgba(199, 166, 166, 0.5);
-    background-size: 100% 100%;
-    margin: 0;
   }
-  h1#techHeader{
+  h1#techHeader {
     text-align: left;
-    padding-left:10%;
+    padding-left: 10%;
+    margin: 0;
   }
   #techHeader {
     background-color: rgba(235, 232, 220, 0.5);

@@ -4,7 +4,6 @@
 }
 
 #hero-tech-text {
-  color: rgba(112, 100, 100, 0.7);
   font-size: 15vw;
 }
 
@@ -30,8 +29,7 @@
 
 #techstackItems {
   display: flex;
-  /* margin: 0 20%; */
-  justify-content: space-between;
+  justify-content: center;
   flex-flow: row wrap;
   border: none;
   box-shadow: none;
@@ -51,16 +49,16 @@
   color: orange;
   border-radius: 15%;
 }
-picture img {
+.mongoDB img {
   transition: all 0.5s ease;
 }
-picture img:hover {
+.mongoDB img:hover {
   border-bottom: orange solid 2px;
 }
-.techstack-item i {
+ .techstack-item i {
   font-size: 7rem;
 }
-.techstack-item {
+ .techstack-item {
   font-size: 2rem;
   font-weight: bolder;
 }
@@ -88,12 +86,16 @@ picture img:hover {
     background: url('/images/tools-mini.png');
     background-size: cover;
   }
+  #text-container {
+    margin: auto 5%;
+    border: none;
+    box-shadow: none;
+  }
   #tech-flex-container {
     background-color: rgba(199, 166, 166, 0.5);
     background-size: cover;
     margin: 0;
     height: 100vh;
-    color: white;
   }
   h1#techHeader{
     text-align: left;

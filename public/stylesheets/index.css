@@ -101,6 +101,12 @@ h6 {
     display: none;
   }
 }
+@media screen and (max-width: 400px){
+  .top-nav .top-nav-a{
+    /* color:red; */
+    font-size: 60%;
+  }
+}
 
 /* FOOTER */
 footer {

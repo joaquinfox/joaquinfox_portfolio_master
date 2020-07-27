@@ -78,10 +78,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  #mainContainer,
-  body,
-  html {
-    margin: 0;
+  #mainContainer {
     padding: 0;
   }
   #tech-flex-container {
@@ -91,14 +88,13 @@
     background-size: cover;
   }
   #text-container {
-
     border: none;
     box-shadow: none;
     color: white;
   }
   #text-container,
   #techstackItems {
-    background-color: rgba(199, 166, 166, 0.5);
+    background-color: rgba(199, 166, 166, 0.9);
     margin: auto 5%;
   }
   #tech-flex-container {

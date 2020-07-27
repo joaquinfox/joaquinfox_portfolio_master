@@ -1,7 +1,7 @@
 /*GALLERY STYLES*/
 
 /* HERO SECTION */
-header#hero-gallery {
+#hero-gallery {
   background-image: url('/images/Foxy Design.png');
   margin: 0;
 }
@@ -73,26 +73,26 @@ span {
     flex-direction: column;
   }
   .hero-text {
-    font-size: 6rem;
+    /* font-size: 6rem; */
   }
 }
 @media screen and (max-width: 600px) {
-  #main-container {
+  #gallery-flex-container {
     background: url('/images/Foxy Design.png') no-repeat bottom fixed;
-    background-size: cover;
+    /* background-size: cover; */
   }
   #gallery-flex-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color: rgba(199, 166, 166, 0.5);
-    background-size: cover;
-    margin: 0;
-    height: 100vh;
-    color: white;
+    /* background-size: cover; */
+    /* margin: 0; */
+    /* height: 100vh; */
+    /* color: white; */
   }
   .hero-text {
-    font-size: 4rem;
-    position: absolute;
-    top: 0;
-    left: 5rem;
+    /* font-size: 4rem; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 5rem; */
   }
 }

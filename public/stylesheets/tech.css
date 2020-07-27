@@ -78,18 +78,30 @@
   }
 }
 @media screen and (max-width: 600px) {
-  #mainContainer {
+  #mainContainer,
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  #tech-flex-container {
+    margin: 0;
     background: url('/images/tools-mini.png');
+    background-position: center;
     background-size: cover;
   }
   #text-container {
-    margin: auto 5%;
+
     border: none;
     box-shadow: none;
     color: white;
   }
-  #tech-flex-container {
+  #text-container,
+  #techstackItems {
     background-color: rgba(199, 166, 166, 0.5);
+    margin: auto 5%;
+  }
+  #tech-flex-container {
   }
   h1#techHeader {
     text-align: left;

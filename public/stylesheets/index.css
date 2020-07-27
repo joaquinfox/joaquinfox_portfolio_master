@@ -12,6 +12,8 @@ body {
   min-height: 100vh;
   padding-bottom: 2.5rem;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 body {
   margin: 0;
@@ -42,8 +44,8 @@ h6 {
 }
 
 /* NAV BAR */
-.top-nav  {
-  background-color:#eee;
+.top-nav {
+  background-color: #eee;
   text-align: center;
   display: flex;
   flex-flow: row wrap;

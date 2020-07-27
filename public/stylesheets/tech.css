@@ -51,6 +51,7 @@
 }
 .mongoDB img {
   transition: all 0.5s ease;
+  width: 10rem;
 }
 .mongoDB img:hover {
   border-bottom: orange solid 2px;
@@ -103,12 +104,17 @@
     text-align: left;
     padding-left: 10%;
     margin: 0;
+    color: black;
   }
   #techHeader {
-    background-color: rgba(235, 232, 220, 0.5);
+    background-color: rgba(235, 232, 220, 0.8);
+  }
+  .mongoDB img {
+    width: 8rem;
   }
   #techstackItems,
   .techstack-item {
     color: white;
+    padding:2%;
   }
 }

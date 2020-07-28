@@ -67,18 +67,16 @@ footer {
 }
 @media screen and (max-width: 600px) {
   #main-container {
-    padding:0;
+    padding: 0;
   }
   #about-flex-container {
     margin: 0;
     background: url('/images/about.png');
     background-position: center;
     background-size: cover;
-    
   }
-  #aboutHeader{
-
-    background-color:rgba(235, 232, 220, 0.5)
+  #aboutHeader {
+    background-color: rgba(235, 232, 220, 0.5);
   }
   .header-anchors,
   i {

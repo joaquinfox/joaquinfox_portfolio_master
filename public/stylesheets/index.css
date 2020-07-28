@@ -7,6 +7,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
+  font-size: 24px;
 }
 #mainContainer {
   min-height: 100vh;
@@ -18,7 +19,7 @@ body {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-size: auto;
 }
 h1,
 h2,
@@ -70,10 +71,10 @@ h6 {
 }
 @media screen and (max-width: 1000px) {
   #social-anchor-container {
-    font-size: 2vw;
+    font-size: auto;
   }
   .hero-image {
-    height: 30vh;
+    height: auto;
   }
 }
 @media screen and (max-width: 600px) {
@@ -82,7 +83,7 @@ h6 {
     flex-direction: column;
   }
   .top-nav-a {
-    font-size: 1rem;
+    font-size: auto;
   }
   h1,
   h2,
@@ -90,21 +91,12 @@ h6 {
   h4,
   h5,
   h6 {
-    font-size: 125%;
     text-align: center;
   }
-  body {
-    font-size: 1rem;
-  }
+
   #profile-img,
   .hero-image {
     display: none;
-  }
-}
-@media screen and (max-width: 400px){
-  .top-nav .top-nav-a{
-    /* color:red; */
-    font-size: 60%;
   }
 }
 

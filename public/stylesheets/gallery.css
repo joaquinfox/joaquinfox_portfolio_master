@@ -4,14 +4,16 @@
 #hero-gallery {
   background-image: url('/images/Foxy Design.png');
   margin: 0;
+  height: auto;
 }
 
 #hero-gallery-text {
   font-family: 'Do Hyeon', sans-serif;
-  font-size: 12vw;
   background-color: rgba(230, 218, 229, 0.6);
   height: inherit;
-  padding-left: 2%;
+}
+.hero-span-item {
+  font-size: 12rem;
 }
 #hero-span-1 {
   color: rgb(202, 21, 30);
@@ -33,13 +35,6 @@
 }
 #hero-span-7 {
   color: rgb(226, 19, 209);
-}
-.hero-span-item {
-  padding: 0 -2%;
-}
-.hero-text,
-span {
-  margin: 2% -1%;
 }
 
 /* GALERY FLEX CONTAINER */
@@ -72,8 +67,14 @@ span {
   #gallery-flex-container {
     flex-direction: column;
   }
-  .hero-text {
-    /* font-size: 6rem; */
+
+  .hero-span-item {
+    font-size: 8rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero-span-item {
+    font-size: 6rem;
   }
 }
 @media screen and (max-width: 600px) {

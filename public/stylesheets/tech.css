@@ -29,39 +29,21 @@
 
 #techstackItems {
   display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  border: none;
-  box-shadow: none;
+  flex-flow: wrap;
 }
 
 .techstack-item {
   margin: auto;
-  list-style: none;
-  text-decoration: none;
+  font-size: 2rem;
   transition: all 0.5s ease;
   color: rgb(112, 100, 100);
-  padding: 10%;
+  padding: 4%;
 }
 
 .techstack-item:hover {
   color: rgb(15, 10, 10);
   color: orange;
   border-radius: 15%;
-}
-.mongoDB img {
-  transition: all 0.5s ease;
-  width: 10rem;
-}
-.mongoDB img:hover {
-  border-bottom: orange solid 2px;
-}
-.techstack-item i {
-  font-size: 7rem;
-}
-.techstack-item {
-  font-size: 2rem;
-  font-weight: bolder;
 }
 
 @media screen and (max-width: 1000px) {
@@ -71,11 +53,8 @@
     box-shadow: none;
   }
 
-  #techstack-item {
-    padding: auto;
-  }
-  .techstack-item i {
-    font-size: 3rem;
+  .techstack-item {
+    font-size: auto;
   }
 }
 @media screen and (max-width: 600px) {
@@ -96,10 +75,8 @@
   #text-container,
   #techstackItems {
     background-color: rgba(199, 166, 166, 0.9);
-    margin: auto 5%;
   }
-  #tech-flex-container {
-  }
+
   h1#techHeader {
     text-align: left;
     padding-left: 10%;
@@ -115,6 +92,6 @@
   #techstackItems,
   .techstack-item {
     color: white;
-    padding:2%;
+    padding: 2%;
   }
 }

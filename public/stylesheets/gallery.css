@@ -45,33 +45,51 @@
 #gallery-flex-container {
   margin: 5% 20%;
   display: flex;
+  flex-wrap: wrap;
   font-size: 60%;
 }
 
 .gallery-card {
   flex: 1;
-  background-color: rgb(255, 244, 244);
-  border-right: 1px solid black;
+  background-color: rgb(250, 249, 249);
+  box-shadow: 1px 1px 15px rgb(224, 219, 219);
   text-align: center;
   margin: 3%;
   align-content: flex-start;
   line-height: 1.5;
   padding: 3%;
-  background-color: #eee;
 }
-.readme {
-  font-size: 10px;
+a {
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: rgb(112, 100, 100);
+}
+
+h4 {
+  font-size: x-small;
+  font-weight: 100;
 }
 
 .gallery-card a {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 1500px) {
+  .gallery-card p {
+    display: none;
+  }
+  .readme a {
+    font-size: 90%;
+    color: red;
+  }
+}
 @media screen and (max-width: 1200px) {
   #gallery-flex-container {
     flex-direction: column;
   }
-
+  h1 {
+    font-size: 90%;
+  }
   .hero-span-item {
     font-size: 8rem;
   }
@@ -80,10 +98,17 @@
   .hero-span-item {
     font-size: 6rem;
   }
+  h1 {
+    font-size: 80%;
+  }
 }
 @media screen and (max-width: 600px) {
   #mainContainer {
     padding: 0;
+  }
+  h1 {
+    font-size: 70%;
+    padding: 10% 0;
   }
   #gallery-flex-container {
     margin: 0;
@@ -92,6 +117,6 @@
   }
   .gallery-card {
     margin: 10%;
-    border: solid 2px black;
+    box-shadow: 1px 5px 30px rgb(8, 8, 8);
   }
 }

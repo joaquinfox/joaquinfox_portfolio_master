@@ -47,11 +47,13 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: center;
 }
 
 .gallery-card {
-  flex: 1;
+  width: 200px;
+  height: 300px;
+  overflow-y: scroll;
   font-size: 60%;
   background-color: rgb(255, 244, 244);
   border-right: 1px solid black;
@@ -78,6 +80,7 @@
 @media screen and (max-width: 1200px) {
   #gallery-flex-container {
     flex-direction: column;
+    width: auto;
   }
 
   .hero-span-item {
@@ -99,7 +102,10 @@
     background-size: cover;
   }
   .gallery-card {
-    margin: 10%;
+    margin: 1% auto;
     border: solid 2px black;
+  }
+  footer {
+    font-size: smaller;
   }
 }

@@ -11,20 +11,8 @@
 #tech-flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin: 5% 20%;
-}
-
-#tech-header {
-  margin: auto;
-  padding-bottom: 5%;
-}
-
-#text-container {
-  margin: 5% 15% 10% 15%;
-  line-height: 2;
-  border: 0.015rem solid rgb(240, 223, 223);
-  padding: 3%;
-  box-shadow: rgb(240, 223, 223) 0.25rem 0.15rem;
 }
 
 #techstackItems {
@@ -33,8 +21,8 @@
 }
 
 .techstack-item {
-  margin: auto;
-  font-size: 2rem;
+  /* margin: auto; */
+  font-size: 1rem;
   transition: all 0.5s ease;
   color: rgb(112, 100, 100);
   padding: 4%;
@@ -47,51 +35,38 @@
 }
 
 @media screen and (max-width: 1000px) {
-  #text-container {
-    margin: auto auto 5%;
-    border: none;
-    box-shadow: none;
-  }
-
   .techstack-item {
     font-size: auto;
   }
+  footer {
+    font-size: small;
+  }
 }
 @media screen and (max-width: 600px) {
-  #mainContainer {
-    padding: 0;
-  }
   #tech-flex-container {
+    height: 100vh;
     margin: 0;
     background: url('/images/tools-mini.png');
-    background-position: center;
-    background-size: cover;
+    justify-content: unset;
   }
-  #text-container {
-    border: none;
-    box-shadow: none;
-    color: white;
+  footer {
+    font-size: x-small;
   }
-  #text-container,
   #techstackItems {
-    background-color: rgba(199, 166, 166, 0.9);
+    background-color: rgba(10, 10, 10, 0.7);
+    height: 100%;
   }
 
-  h1#techHeader {
-    text-align: left;
-    padding-left: 10%;
-    margin: 0;
-    color: black;
-  }
   #techHeader {
-    background-color: rgba(235, 232, 220, 0.8);
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 3px 5px black;
   }
-  .mongoDB img {
-    width: 8rem;
-  }
+
   #techstackItems,
   .techstack-item {
     color: white;
-    padding: 2%;
+    /* padding: 2%; */
   }
 }

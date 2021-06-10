@@ -60,12 +60,15 @@ i:hover {
 footer {
   position: relative;
 }
-@media screen and (max-width: 1000px) {
-  .about-content {
-    margin: auto;
+@media screen and (max-width: 800px) {
+  #about-flex-container {
+    font-size: 80%;
   }
 }
 @media screen and (max-width: 600px) {
+  #about-flex-container {
+    font-size: 70%;
+  }
   #main-container {
     padding: 0;
   }
@@ -85,5 +88,10 @@ footer {
 
   .about-content {
     margin: 0 5%;
+  }
+}
+@media screen and (max-width: 400px) {
+  a {
+    font-size: 80%;
   }
 }

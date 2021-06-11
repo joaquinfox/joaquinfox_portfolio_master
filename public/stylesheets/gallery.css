@@ -86,7 +86,6 @@ h4 {
 @media screen and (max-width: 1200px) {
   #gallery-flex-container {
     flex-direction: column;
-    width: auto;
   }
   h1 {
     font-size: 90%;
@@ -119,8 +118,5 @@ h4 {
   .gallery-card {
     margin: 10%;
     box-shadow: 1px 5px 30px rgb(8, 8, 8);
-  }
-  footer {
-    font-size: smaller;
   }
 }

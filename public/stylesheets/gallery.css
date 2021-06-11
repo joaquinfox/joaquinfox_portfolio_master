@@ -46,18 +46,22 @@
   width: 60%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   font-size: 60%;
 }
-
+.imageContainer > img {
+  width: 100%;
+}
 .gallery-card {
   flex: 1;
   background-color: rgb(250, 249, 249);
   box-shadow: 1px 1px 15px rgb(224, 219, 219);
   text-align: center;
-  margin: 3%;
+  width: 100px;
+  /* height: 200px; */
+  margin: 1%;
   line-height: 1.5;
-  padding: 3%;
+  /* padding: 3%; */
 }
 a {
   font-size: 0.5rem;

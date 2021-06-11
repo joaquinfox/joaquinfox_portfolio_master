@@ -46,6 +46,7 @@
   width: 60%;
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-flow: wrap;
   font-size: 60%;
 }
@@ -58,11 +59,11 @@
   text-align: center;
   width: 200px;
   height: 300px;
-  margin: 1%;
+  margin: 2%;
   line-height: 1.5;
   padding: 3%;
   overflow-y: scroll;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 a {
   font-size: 0.5rem;
@@ -86,9 +87,6 @@ h4 {
   }
 }
 @media screen and (max-width: 1200px) {
-  #gallery-flex-container {
-    flex-direction: column;
-  }
   h1 {
     font-size: 90%;
   }

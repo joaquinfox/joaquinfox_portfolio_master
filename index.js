@@ -17,9 +17,6 @@ express()
   .get('/gallery', (req, res) => {
     res.render('gallery');
   })
-  .get('/blog', (req, res) => {
-    res.render('blog');
-  })
   .listen(PORT || 3000, () => {
     console.log(`Listening on ${PORT || 3000}`);
   });

@@ -111,6 +111,7 @@ footer {
   flex-direction: column;
   margin: 0;
   padding: 1%;
+  font-size: smaller;
 }
 footer,
 span {
